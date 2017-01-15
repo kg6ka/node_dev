@@ -1,0 +1,23 @@
+{
+  "name": "node_dev",
+  "version": "1.0.0",
+  "description": "node dev server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kg6ka/node_dev.git"
+  },
+  "keywords": [
+    "node_dev_server_kg"
+  ],
+  "author": "Kirill Ganzha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kg6ka/node_dev/issues"
+  },
+  "homepage": "https://github.com/kg6ka/node_dev#readme"
+}

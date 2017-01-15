@@ -1,4 +1,4 @@
-var user;
+'use strict';
 
 function User(name) {
     this.name = name;
@@ -16,11 +16,4 @@ Object.defineProperty(User.prototype, 'setName', {
     }
 });
 
-if(module.parent) {
-    module.exports = User;
-    return;
-}
-
-user = new User('John');
-user.setName = 'Phile';
-console.log(user.getName);
+module.exports = User;
