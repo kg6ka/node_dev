@@ -13,8 +13,7 @@ git clone https://github.com/kg6ka/node_dev.git
 
 Install
 ```bash
-node install -g
-npm install
+Installing Node.js and npm for your environment
 ```
 
 Run
